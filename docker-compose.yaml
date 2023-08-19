@@ -5,3 +5,7 @@ services:
     image: "shubhlze/node1"
     ports:
       - "8000:8000"
+  web:
+    image: "mysql"
+    ports:
+      - "3306:3306"
